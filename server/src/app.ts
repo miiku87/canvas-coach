@@ -134,6 +134,8 @@ export function createApp(config: Config, coach: Coach) {
     if (!parsed.success) {
       return c.json<ErrorResponse>({ error: parsed.error.issues[0]?.message ?? "Virheellinen pyyntö." }, 400);
     }
+    const { pageType, title } = parsed.data.page;
+    console.log(`${new Date().toLocaleTimeString("fi-FI")}  Tarkistetaan: ${pageType} "${title}"`);
     try {
       return c.json<ReviewResponse>(await coach.review(parsed.data.page));
     } catch (err) {
@@ -148,6 +150,7 @@ export function createApp(config: Config, coach: Coach) {
     if (!parsed.success) {
       return c.json<ErrorResponse>({ error: parsed.error.issues[0]?.message ?? "Virheellinen pyyntö." }, 400);
     }
+    console.log(`${new Date().toLocaleTimeString("fi-FI")}  Jatkokysymys: "${parsed.data.page.title}"`);
     try {
       return c.json<ChatResponse>(await coach.chat(parsed.data));
     } catch (err) {

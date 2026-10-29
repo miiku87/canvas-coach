@@ -2,8 +2,13 @@
   "name": "canvas-coach",
   "private": true,
   "type": "module",
-  "workspaces": ["server", "widget"],
+  "workspaces": [
+    "server",
+    "widget"
+  ],
   "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "start": "npm run build -w widget && npm start -w server",
     "build": "npm run build -w widget && npm run build -w server",
     "dev": "npm run build -w widget && npm run dev -w server",
     "test": "npm test -w widget && npm test -w server",

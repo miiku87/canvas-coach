@@ -6,6 +6,8 @@ Tekoälysparraaja opettajalle Canvas-oppimisalustaan. Coach näkyy Canvasin sivu
 - **Kurssin etusivulla**: mitkä linkit kannattaa nostaa esiin, onko "Aloita tästä" -polkua, ovatko tiedot ajan tasalla.
 - **Kaikilla sivuilla**: rakenne, saavutettavuus (otsikot, alt-tekstit, linkkitekstit) ja **brändin mukaisuus** organisaation omaan brandiohjeeseen verrattuna.
 
+> 👉 **Haluatko vain kokeilla?** Katso selkokielinen ohje: [OHJE-TESTIKAYTTO.md](OHJE-TESTIKAYTTO.md). Asennus onnistuu tuplaklikkaamalla, eikä komentoja tarvita.
+
 Palautteen jälkeen opettaja voi jatkaa keskustelua ("Muotoile minulle arviointikriteerit", "Miten tästä saisi lyhyemmän?").
 
 ![Coach tehtäväsivulla](docs/coach-assignment.png)
@@ -37,7 +39,7 @@ Canvas-sivu (selain)                       Canvas Coach -palvelin             Cl
 
 ## Pika-aloitus (paikallinen kokeilu)
 
-Tarvitset Node.js 22+:n ja Anthropic API -avaimen.
+Tarvitset Node.js 22+:n ja Anthropic API -avaimen. Helpoin tapa on tuplaklikata `Asenna` ja sitten `Kaynnista` (ks. [OHJE-TESTIKAYTTO.md](OHJE-TESTIKAYTTO.md)). Komentoriviltä sama onnistuu näin:
 
 ```bash
 npm install
@@ -67,7 +69,7 @@ npm run build:extension
 
 Huomioita:
 - Chrome kysyy ensimmäisellä kerralla, saako Canvas-sivu käyttää paikallisen verkon laitteita. Vastaa **Salli**, koska palvelin pyörii omalla koneellasi (`localhost`). Julkisella https-palvelimella kysymystä ei tule.
-- Jos Canvasinne osoite ei ole `*.instructure.com`, lisää oma osoite tiedostoon `extension/manifest.json` (molempiin `matches`-kohtiin) ja aja `npm run build:extension` uudelleen.
+- Laajennus toimii osoitteissa `*.instructure.com` sekä `server/.env`-tiedoston `ALLOWED_ORIGINS`-osoitteissa (lisätään automaattisesti, kun ajat `npm run build:extension`).
 
 ## Tuotantokäyttö (koko oppilaitokselle)
 
