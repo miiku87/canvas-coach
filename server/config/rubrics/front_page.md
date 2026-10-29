@@ -1,0 +1,7 @@
+- **Ensivaikutelma**: Ymmärtääkö opiskelija 10 sekunnissa, mistä kurssissa on kyse ja mitä hänen pitää tehdä seuraavaksi?
+- **Aloitusohje**: Onko selkeä "Aloita tästä" -polku (esim. ensimmäinen moduuli, esittelykeskustelu, aikataulu)?
+- **Tärkeimmät linkit**: Mitkä linkit kannattaisi nostaa näkyvimmiksi (moduulit, aikataulu, arviointi, yhteystiedot, ajankohtaiset)? Onko linkkejä liikaa, rikkinäisen näköisiä tai epäkuvaavia ("klikkaa tästä")? Ehdota konkreettinen järjestys.
+- **Yhteystiedot ja tuki**: Löytyykö opettajan yhteystiedot, vastausaika ja vastaanottoajat?
+- **Ajankohtaisuus**: Onko sivulla vanhentuneita päivämääriä, edellisen toteutuksen viittauksia tai "tulossa"-tekstejä?
+- **Rakenne ja visuaalisuus**: Onko otsikkohierarkia looginen? Onko tekstimassaa liikaa? Ovatko kuvat merkityksellisiä ja alt-tekstitetty?
+- **Mobiili**: Toimisiko sivu kapealla näytöllä (taulukoilla tehty asettelu, isot kuvat)?

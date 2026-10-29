@@ -1,0 +1,14 @@
+{
+  "name": "canvas-coach",
+  "private": true,
+  "type": "module",
+  "workspaces": ["server", "widget"],
+  "scripts": {
+    "build": "npm run build -w widget && npm run build -w server",
+    "dev": "npm run build -w widget && npm run dev -w server",
+    "test": "npm test -w widget && npm test -w server",
+    "typecheck": "npm run typecheck -w widget && npm run typecheck -w server",
+    "build:extension": "npm run build -w widget && node extension/build.mjs",
+    "e2e": "npm run build -w widget && node e2e/widget.e2e.mjs"
+  }
+}

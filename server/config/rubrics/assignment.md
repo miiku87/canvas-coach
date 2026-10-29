@@ -1,0 +1,9 @@
+- **Tavoite**: Kerrotaanko, mitä opiskelija oppii tai osoittaa tehtävällä ja miten se liittyy kurssin osaamistavoitteisiin?
+- **Ohjeet**: Ovatko työvaiheet yksiselitteiset? Voisiko opiskelija aloittaa ilman tarkentavia kysymyksiä?
+- **Lopputulos**: Onko palautettavan tuotoksen muoto, laajuus (sanamäärä, kesto, sivumäärä) ja tiedostomuoto määritelty? Vastaavatko ne Canvasin palautustapaa (facts: submission_types)?
+- **Aikataulu**: Onko määräaika asetettu ja sama kuin tekstissä mahdollisesti mainittu? Onko myöhästymisistä tai uusintamahdollisuudesta kerrottu?
+- **Arviointi**: Kerrotaanko arviointikriteerit tai onko tehtävään liitetty arviointimatriisi (facts: rubric)? Vastaavatko pisteet (facts: points_possible) kriteerejä?
+- **Tuki**: Kerrotaanko, mistä saa apua, saako tehdä yhdessä ja mikä on tekoälyn käytön linja?
+- **Esimerkit ja materiaalit**: Onko mallivastausta, esimerkkiä tai tarvittavia materiaalilinkkejä?
+- **Kuormitus**: Onko arvioitu työmäärä kerrottu ja onko se realistinen?
+- **Saavutettavuus**: Otsikkorakenne, kuvaavat linkkitekstit, kuvien alt-tekstit.

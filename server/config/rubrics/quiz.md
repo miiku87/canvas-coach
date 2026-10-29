@@ -1,0 +1,5 @@
+- **Ohjeistus**: Kerrotaanko tentin tarkoitus, kesto, yrityskerrat, sallitut apuvälineet ja milloin tulokset näkyvät?
+- **Asetukset**: Vastaavatko Canvas-asetukset (facts: aikaraja, yritykset, saatavuus) ohjetekstiä?
+- **Arviointi**: Kerrotaanko pisteytys ja vaikutus kurssiarvosanaan?
+- **Linjakkuus**: Mittaako tentti kurssin osaamistavoitteita?
+- **Saavutettavuus**: Onko lisäajan tai muiden järjestelyjen pyytämisestä kerrottu?

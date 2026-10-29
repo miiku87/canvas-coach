@@ -1,0 +1,4 @@
+- **Pääviesti**: Onko tärkein asia ensimmäisessä virkkeessä?
+- **Toimenpiteet**: Onko selvää, mitä opiskelijan pitää tehdä ja mihin mennessä?
+- **Pituus ja sävy**: Onko tiedote tiivis, ystävällinen ja selkeä?
+- **Linkit**: Viittaako tiedote suoraan oikeaan sivuun tai tehtävään?

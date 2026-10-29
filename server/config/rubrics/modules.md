@@ -1,0 +1,5 @@
+- **Kokonaisrakenne**: Etenevätkö moduulit loogisesti? Ovatko moduulien nimet kuvaavia ja johdonmukaisia (esim. "Viikko 1: Aihe")?
+- **Moduulin rakenne**: Onko jokaisessa moduulissa johdanto/tavoitteet, sisältö, tekeminen ja lopuksi tehtävä tai tarkistus? Ehdota yhtenäistä mallia, jos rakenne vaihtelee.
+- **Työmäärä**: Onko moduulien kuormitus tasainen?
+- **Julkaisutila**: Onko julkaisemattomia kohteita, jotka pitäisi julkaista, tai tyhjiä moduuleja?
+- **Edellytykset**: Onko etenemisehtoja tai vaatimuksia käytetty tarkoituksenmukaisesti?

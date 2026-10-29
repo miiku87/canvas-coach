@@ -1,0 +1,4 @@
+- **Selkeys**: Ymmärtääkö opiskelija sivun tarkoituksen ja mitä hänen pitää tehdä?
+- **Rakenne**: Otsikkohierarkia, kappaleiden pituus, listojen käyttö.
+- **Linkit ja materiaalit**: Kuvaavat linkkitekstit, ajantasaisuus.
+- **Saavutettavuus**: Kuvien alt-tekstit, selkokielisyys, värin varaan rakennetun tiedon välttäminen.

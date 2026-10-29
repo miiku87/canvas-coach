@@ -1,0 +1,6 @@
+- **Tarkoitus**: Onko keskustelun oppimistavoite selvä?
+- **Tehtävänanto**: Onko aloituskysymys avoin ja ajatteluun haastava (ei kyllä/ei)? Ohjaako se omiin kokemuksiin, perusteluihin tai lähteisiin?
+- **Osallistumisohjeet**: Kerrotaanko, montako viestiä, kuinka pitkiä ja montako vastausta muille odotetaan, sekä millä aikataululla?
+- **Arviointi**: Onko keskustelu arvioitu ja jos on, millä kriteereillä?
+- **Vuorovaikutus**: Onko ohjeita hyvästä vastavuoroisuudesta (esim. miten kommentoida rakentavasti)?
+- **Opettajan rooli**: Kerrotaanko, osallistuuko opettaja ja milloin hän antaa koontia?

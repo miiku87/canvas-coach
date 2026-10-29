@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <title>Canvas Coach – asetukset</title>
+  <style>
+    body { font: 14px/1.5 system-ui, sans-serif; margin: 16px; min-width: 360px; color: #273540; }
+    label { display: block; margin: 12px 0 4px; font-weight: 600; }
+    input[type=text], input[type=password] { width: 100%; padding: 6px 8px; box-sizing: border-box; }
+    .check { display: flex; gap: 8px; align-items: center; font-weight: normal; }
+    button { margin-top: 16px; padding: 6px 14px; }
+    small { color: #6a7883; }
+  </style>
+</head>
+<body>
+  <label for="serverUrl">Coach-palvelimen osoite</label>
+  <input id="serverUrl" type="text" placeholder="http://localhost:8787">
+  <label for="token">Käyttöoikeustunnus (valinnainen)</label>
+  <input id="token" type="password" autocomplete="off">
+  <label class="check"><input id="showForAll" type="checkbox"> Näytä myös opiskelijana (testausta varten)</label>
+  <button id="save" type="button">Tallenna</button>
+  <p><small id="status"></small></p>
+  <script src="options.js"></script>
+</body>
+</html>

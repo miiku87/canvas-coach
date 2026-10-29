@@ -1,0 +1,6 @@
+- **Tarkoitus**: Onko sivun tarkoitus ja paikka kurssin kokonaisuudessa selvä?
+- **Rakenne**: Looginen otsikkohierarkia, lyhyet kappaleet, listat, tiivistelmä tai keskeiset asiat alussa.
+- **Sisällön laatu**: Onko teksti ymmärrettävää kohderyhmälle? Onko ammattisanastoa avattu?
+- **Aktivointi**: Ohjaako sivu tekemään jotain (pohdintakysymys, tehtävä, linkki seuraavaan vaiheeseen)?
+- **Linkit ja materiaalit**: Kuvaavat linkkitekstit, ulkoisten linkkien ajantasaisuus, videoiden kesto ja tekstitys mainittu.
+- **Saavutettavuus**: Kuvien alt-tekstit, värin varaan rakennetun tiedon välttäminen, taulukoiden otsikot.

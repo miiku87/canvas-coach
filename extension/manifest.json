@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas Coach",
+  "version": "0.1.0",
+  "description": "Tekoälysparraaja opettajalle: palautetta Canvas-sivujen tehtävänannoista, rakenteesta ja brändistä.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.instructure.com/*"],
+      "js": ["bridge.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://*.instructure.com/*"],
+      "js": ["canvas-coach.js"],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ],
+  "options_ui": { "page": "options.html", "open_in_tab": false }
+}

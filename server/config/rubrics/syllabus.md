@@ -1,0 +1,6 @@
+- **Perustiedot**: Opintojakson laajuus, ajankohta, opettajat ja yhteystiedot.
+- **Osaamistavoitteet**: Ovatko ne opiskelijan näkökulmasta kirjoitettuja ja arvioitavia ("opiskelija osaa...")?
+- **Toteutus ja aikataulu**: Kerrotaanko opiskelutavat, työmäärä ja keskeiset päivämäärät?
+- **Arviointi**: Arviointiperusteet, osasuoritusten painoarvot, uusinta- ja myöhästymiskäytännöt.
+- **Linjaukset**: Tekoälyn käyttö, plagiointi, läsnäolo, saavutettavuus ja erityisjärjestelyt.
+- **Ajankohtaisuus**: Vanhentuneet päivämäärät tai edellisen toteutuksen tiedot.
